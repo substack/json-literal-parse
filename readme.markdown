@@ -2,7 +2,7 @@
 
 superset of `JSON.parse()` adding regex, null, and octal literals
 
-[![browser support](http://ci.testling.com/substack/json-literal-parse.png)](http://ci.testling.com/substack/json-literal-parse)
+[![browser support](https://ci.testling.com/substack/json-literal-parse.png)](https://ci.testling.com/substack/json-literal-parse)
 
 [![build status](https://secure.travis-ci.org/substack/json-literal-parse.png)](http://travis-ci.org/substack/json-literal-parse)
 
