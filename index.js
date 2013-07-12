@@ -1,6 +1,6 @@
 var esprima = require('esprima');
 
-exports.parse = function (src) {
+module.exports = function (src) {
     var result;
     var ast = esprima.parse(src);
     
