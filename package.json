@@ -1,0 +1,41 @@
+{
+  "name": "json-literal-parse",
+  "version": "0.0.0",
+  "description": "superset of JSON.parse() adding regex, null, and octal literals",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "esprima": "~1.0.3"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/json-literal-parse.git"
+  },
+  "homepage": "https://github.com/substack/json-literal-parse",
+  "keywords": [
+    "json",
+    "literal",
+    "regex",
+    "null",
+    "octal",
+    "parse"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/substack/json-literal-parse/issues"
+  }
+}
