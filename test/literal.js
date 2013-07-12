@@ -15,6 +15,9 @@ test('not allowed', function (t) {
     t.throws('expression', function () {
         json.parse(';["a","b"]');
     });
+    t.throws('comment', function () {
+        json.parse('["a",/*c*/"b"]');
+    });
     t.throws('assignment expression', function () {
         json.parse('x=["a","b"]');
     });
