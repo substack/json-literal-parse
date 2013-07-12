@@ -2,7 +2,7 @@ var esprima = require('esprima');
 
 module.exports = function (src) {
     var result;
-    var ast = esprima.parse(src);
+    var ast = esprima.parse('(' + src + ')');
     
     if (ast.body.length !== 1) {
         throw new Error('unexpected extra expression');
